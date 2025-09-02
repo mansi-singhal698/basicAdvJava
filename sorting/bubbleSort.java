@@ -6,7 +6,7 @@ public class bubbleSort{
       System.out.println(Arrays.toString(arr));
     }
 
-    static void sort(int[]arr){
+static void sort(int[]arr){
         boolean swapped;
         for(int i=0;i<arr.length;i++){
             swapped = false;
